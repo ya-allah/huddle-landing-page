@@ -1,3 +1,3 @@
-# Huddle landing page with single introductory section
+# Huddle landing page 
 
 Landing page template, will make it mobile-friendly soon.
