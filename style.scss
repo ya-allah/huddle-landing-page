@@ -86,23 +86,24 @@ $main-color: hsl(257, 40%, 49%);
 .socials {
     z-index: 5;
     position: fixed;
-    margin-top: -1em;
+    margin-top: -1.5em;
     right: 0;
-    margin-right: 7em;
+    margin-right: 7.5em;
     color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 175px;
+    width: 160px;
     .icon {
         height: 30px;
         width: 30px;
         border: 1.5px solid white;
         border-radius: 50%;
-        font-size: 20px;
+        font-size: 18px;
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 2.5px;
     }
 }
 
