@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  background-color: #674baf;
+  position: relative;
+}
+
+.container::before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("/imgs/bg-desktop.svg");
+  content: '';
+}
+
+.container header {
+  width: 92.5%;
+  height: 10vh;
+  margin: auto;
+  padding: 50px 0;
+  position: relative;
+}
+
+.container header .logo img {
+  height: 57.33px;
+  width: 257.96px;
+}
+
+.flex-sec {
+  width: 92.5%;
+  margin: auto;
+  margin-top: 1em;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-sec .img {
+  -ms-flex-preferred-size: 45%;
+      flex-basis: 45%;
+}
+
+.flex-sec .img img {
+  height: 506px;
+  width: 709px;
+}
+
+.flex-sec .text {
+  -ms-flex-preferred-size: 45%;
+      flex-basis: 45%;
+  margin-top: 2em;
+}
+
+.flex-sec .text .text-cont h1 {
+  font-family: Poppins;
+  margin-bottom: .5em;
+  font-size: 40px;
+  width: 80%;
+}
+
+.flex-sec .text .text-cont p {
+  font-family: Open Sans;
+  margin-bottom: 1.5em;
+  line-height: 1.5;
+  font-size: 19px;
+  width: 90%;
+  opacity: .95;
+}
+
+.flex-sec .text .text-cont button {
+  color: #785eba;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.3);
+  border: none;
+  outline: none;
+  padding: .85em 3.25em;
+  border-radius: 40px;
+  font-size: 19px;
+}
+
+.socials {
+  z-index: 5;
+  position: fixed;
+  margin-top: -1em;
+  right: 0;
+  margin-right: 7em;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 175px;
+}
+
+.socials .icon {
+  height: 30px;
+  width: 30px;
+  border: 1.5px solid white;
+  border-radius: 50%;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (min-width: 600px) {
+  button {
+    cursor: pointer;
+  }
+}
+/*# sourceMappingURL=style.css.map */
